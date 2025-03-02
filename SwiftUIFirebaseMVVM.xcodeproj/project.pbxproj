@@ -11,6 +11,7 @@
 		588C72A4533FF7C6839A7143 /* Pods_SwiftUIFirebaseMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C01A70E4DFACA75A01291A /* Pods_SwiftUIFirebaseMVVM.framework */; };
 		8936794E4D13AEF148EC037E /* Pods_SwiftUIFirebaseMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFBDBE31EC48B90A1F4599 /* Pods_SwiftUIFirebaseMVVMTests.framework */; };
 		EE96EACB2D7442EC00B7ECD7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE96EACA2D7442EC00B7ECD7 /* GoogleService-Info.plist */; };
+		EEA429F32D744856000F3C95 /* FBDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA429F22D744856000F3C95 /* FBDataService.swift */; };
 		EEFC66C62D743D890003C208 /* SwiftUIFirebaseMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFC66C52D743D890003C208 /* SwiftUIFirebaseMVVMApp.swift */; };
 		EEFC66C82D743D890003C208 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFC66C72D743D890003C208 /* ContentView.swift */; };
 		EEFC66CA2D743D8B0003C208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFC66C92D743D8B0003C208 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		9ACC63C6C76BCC451A8AF125 /* Pods-SwiftUIFirebaseMVVM-SwiftUIFirebaseMVVMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFirebaseMVVM-SwiftUIFirebaseMVVMUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIFirebaseMVVM-SwiftUIFirebaseMVVMUITests/Pods-SwiftUIFirebaseMVVM-SwiftUIFirebaseMVVMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E2152AC08A24D726CA2CE65F /* Pods-SwiftUIFirebaseMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFirebaseMVVM.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIFirebaseMVVM/Pods-SwiftUIFirebaseMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		EE96EACA2D7442EC00B7ECD7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EEA429F22D744856000F3C95 /* FBDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBDataService.swift; sourceTree = "<group>"; };
 		EEFC66C22D743D890003C208 /* SwiftUIFirebaseMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFirebaseMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEFC66C52D743D890003C208 /* SwiftUIFirebaseMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFirebaseMVVMApp.swift; sourceTree = "<group>"; };
 		EEFC66C72D743D890003C208 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,7 +100,6 @@
 				74A3A096260B5CFB4B5B9107 /* Pods-SwiftUIFirebaseMVVMTests.debug.xcconfig */,
 				F8840BDC9A47165F43CF7EE8 /* Pods-SwiftUIFirebaseMVVMTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -138,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				EE96EACA2D7442EC00B7ECD7 /* GoogleService-Info.plist */,
+				EEA429F22D744856000F3C95 /* FBDataService.swift */,
 				EEFC66C52D743D890003C208 /* SwiftUIFirebaseMVVMApp.swift */,
 				EEFC66C72D743D890003C208 /* ContentView.swift */,
 				EEFC66C92D743D8B0003C208 /* Assets.xcassets */,
@@ -411,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEFC66C82D743D890003C208 /* ContentView.swift in Sources */,
+				EEA429F32D744856000F3C95 /* FBDataService.swift in Sources */,
 				EEFC66C62D743D890003C208 /* SwiftUIFirebaseMVVMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

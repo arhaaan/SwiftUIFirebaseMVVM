@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+struct Todo {
+    var id: String? = UUID().uuidString
+    var text: String = ""
+    var isDone: Bool = false
+}
+
 struct ContentView: View {
     var body: some View {
         VStack {
