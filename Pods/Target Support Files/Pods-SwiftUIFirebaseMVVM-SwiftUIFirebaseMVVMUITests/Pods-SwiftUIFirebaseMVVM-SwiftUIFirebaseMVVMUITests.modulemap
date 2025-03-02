@@ -1,0 +1,6 @@
+framework module Pods_SwiftUIFirebaseMVVM_SwiftUIFirebaseMVVMUITests {
+  umbrella header "Pods-SwiftUIFirebaseMVVM-SwiftUIFirebaseMVVMUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
